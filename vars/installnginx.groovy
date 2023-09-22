@@ -8,7 +8,7 @@ def call() {
                 steps {
                     script {
                         // Use 'apt-get' for Ubuntu to install nginx
-                        sh "sudo apt-get update"
+                        sh "sudo apt-get update -y"
                         sh "sudo apt-get install nginx -y"
                     }
                 }
