@@ -7,7 +7,7 @@ pipeline {
         stage('Install Nginx') {
             steps {
                 script {
-                    mySharedLibrary.installNginx()
+                    shared_library.installNginx()
                 }
             }
         }
